@@ -1,0 +1,109 @@
+body {
+	overflow-y: hidden;
+}
+
+h1, h2 {
+	text-align: center;
+}
+p {
+	margin-top: 1.8em;
+}
+
+#high-scores {
+	font-size: 1.1em;
+}
+
+#reset-button {
+	width: 9em;
+	height: 2.5em;
+	margin-left: calc(50% - 4.5em);
+	margin-top: 1em;
+}
+
+#submit-text {
+	width: 10em;
+	margin-top: 1em;
+	margin-left: calc(50% - 5em);
+}
+
+#submit-button {
+	width: 5em;
+	height: 5em;
+	margin-top: 1em;
+	margin-left: calc(50% - 2.5em);
+}
+
+#high-scores {
+	float: right;
+	border: 3px solid gray;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.tile {
+	border: 1px solid gray;
+	float: left;
+	height: 125px;
+	width: 125px;
+	background-color: #adadad;
+	text-align: center;
+   	vertical-align: middle;
+   	line-height: 100px;
+   	font-size: 3em;
+   	font-family: sans-serif;
+}
+.row {
+	clear: left;
+}
+
+#board {
+	margin: 3em;
+}
+
+.tile-2 {
+	background-color: yellow;
+}
+
+.tile-4 {
+	background-color: #e8b268;
+}
+
+.tile-8 {
+	background-color: orange;
+}
+
+.tile-16 {
+	background-color: red;
+}
+
+.tile-32 {
+	background-color: #8ff2f7;
+}
+
+.tile-64 {
+	background-color: #4cbde0;
+}
+
+.tile-128 {
+	background-color: #3986ce;
+}
+
+.tile-256 {
+	background-color: #3961ce;
+}
+
+.tile-512 {
+	background-color: #5238e2;
+}
+
+.tile-1024 {
+	background-color: #9538e2;
+}
+
+.tile-2048 {
+	background-color: #d722f7;
+}
+
+.tile-4096 {
+	background-color: #f721e1;
+}

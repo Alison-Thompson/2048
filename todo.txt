@@ -1,0 +1,29 @@
+Grid
+  4x4
+  DOM elements?
+
+Interaction
+  Key events
+
+Game logic
+  Start game
+    Two random tiles
+  Randomly add tiles
+    Probability of 2 versus 4
+    Position: only on an empty tile
+    Only after a legal move
+  Combine tiles
+    Directionality
+    Combine adjacent values AND move all tiles
+    Add the values (increasing powers of 2)
+
+THE DATA
+  2D list
+  Object (dictionary)
+
+
+UI elements:
+  New game button
+  Scoring
+  Save the game
+  Animations
