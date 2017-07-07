@@ -46,7 +46,7 @@ var checkGameOver = function () { // checks for game over. Not functional.
       }
     }
   }
-  if (counter === 24) {
+  if (counter === 18) {
     gameOver = true;
   }
   return gameOver;
